@@ -15,7 +15,7 @@ class Solution:
         for i , n in enumerate(nums):
             diff = target-n
             if diff in mp:
-                return [mp[diff],i]:
+                return [mp[diff],i]
             
-            
+
 
